@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<script>
+function myFunction1() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+<script>
+    function myFunction2() {
+      if(document.getElementById("demo").innerHTML =="A Paragraph")
+      document.getElementById("demo").innerHTML = "B Paragraph";
+      else
+      document.getElementById("demo").innerHTML = "A Paragraph"
+    }
+    </script>
+</head>
+<body>
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction1()">print</button>
+<button type="button" onclick="myFunction2()">change</button>
+
+</body>
+</html>
