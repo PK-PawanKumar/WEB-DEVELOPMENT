@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(177, 164, 248);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+div {
+    background-color: rgb(13, 6, 75);
+}
+h1
+{
+    /* border: 2px solid rgb(173, 158, 237); */
+    border-bottom: 2px solid rgb(173, 158, 237);
+    margin-top: 3%;
+    padding-top: 2%;  
+    padding-bottom: 2%;
+    color: beige;
+    text-align: center;
+    font-size: 50px;
+
+}
+p {
+    color: beige;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;  
+}
