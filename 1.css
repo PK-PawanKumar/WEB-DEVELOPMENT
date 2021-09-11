@@ -1,0 +1,48 @@
+#body
+{
+    background-color: rgb(12, 1, 15);
+    background-image: url('images/stars_image.jpg');
+}
+
+#header,#planets
+{
+    background-color: rgb(12, 1, 11);
+    text-align: center;
+    color: rgb(65, 85, 154);
+    border-radius: 5px;
+    border: 2px solid rgb(19, 1, 1);
+    background-image: url('images/stars_image.jpg');
+}
+
+#heading_discription,#mercury_discription,#venus_discription,#earth_discription,#mars_discription,#jupyter_discription,#saturn_discription,#uranus_discription,#neptune_discription
+{
+    color: rgb(109, 118, 138);
+    text-align: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-image: url('images/stars_image.jpg');
+
+}
+
+#solar_system_image
+{
+    float: left;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2% ;
+
+}
+#mercury_image,#venus_image,#earth_image,#mars_image,#jupyter_image,#saturn_image,#neptune_image,#uranus_image
+{
+    float: left;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 2% ;
+    
+
+}
+
+#planet_name
+{
+    color: tomato;
+}
